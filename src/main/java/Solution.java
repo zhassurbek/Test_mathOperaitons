@@ -12,7 +12,7 @@ class Solution {
                 case 'M' -> num = 1000;
             }
             if (4 * num < ans) ans -= num;
-            else ans += num;t
+            else ans += num;
         }
         return ans;
     }
